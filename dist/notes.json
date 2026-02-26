@@ -1,0 +1,126 @@
+{
+  "notes": [
+    {
+      "id": "5c824555",
+      "title": "New Note",
+      "content": "SHM issue done testing\nImplement the instruction",
+      "color": "#FFF9C4",
+      "tasks": [
+        {
+          "id": "bb18917c",
+          "text": "New task",
+          "checked": true
+        },
+        {
+          "id": "4b414a57",
+          "text": "dwdweded",
+          "checked": false
+        },
+        {
+          "id": "9f03ac50",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "fec9d81d",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "427c9660",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "54eaa795",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "f27625ab",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "bf19bc45",
+          "text": "New task",
+          "checked": false
+        }
+      ],
+      "width": 290,
+      "height": 285
+    },
+    {
+      "id": "682863c8",
+      "title": "AI",
+      "content": "AI related",
+      "color": "#F8BBD9",
+      "tasks": [
+        {
+          "id": "e6ae5376",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "82659d95",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "98b353ca",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "4d0e95ec",
+          "text": "New task",
+          "checked": false
+        }
+      ],
+      "width": 280,
+      "height": 280
+    },
+    {
+      "id": "f46c3583",
+      "title": "Armani",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280
+    },
+    {
+      "id": "fdc69e73",
+      "title": "New Note",
+      "content": "New tests;\nfilter export\nBackup SHM REST",
+      "color": "#C8E6C9",
+      "tasks": [
+        {
+          "id": "cf0b54cd",
+          "text": "New task",
+          "checked": false
+        }
+      ],
+      "width": 280,
+      "height": 280
+    },
+    {
+      "id": "fc8ef31a",
+      "title": "Bathroom",
+      "content": "Replace ventilator",
+      "color": "#BBDEFB",
+      "tasks": [],
+      "width": 280,
+      "height": 280
+    },
+    {
+      "id": "1ba3250c",
+      "title": "Calls",
+      "content": "Call Zhenia\nCall Dima",
+      "color": "#E1BEE7",
+      "tasks": [],
+      "width": 280,
+      "height": 280
+    }
+  ]
+}

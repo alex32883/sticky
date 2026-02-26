@@ -1,0 +1,2 @@
+# Sticky Notes - Python tkinter (built-in, no pip install required)
+# No external dependencies for basic functionality.
