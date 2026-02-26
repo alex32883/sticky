@@ -14,7 +14,7 @@
         {
           "id": "4b414a57",
           "text": "dwdweded",
-          "checked": false
+          "checked": true
         },
         {
           "id": "9f03ac50",
@@ -45,10 +45,77 @@
           "id": "bf19bc45",
           "text": "New task",
           "checked": false
+        },
+        {
+          "id": "cf50fbe9",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "4f95b041",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "e46ed5e6",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "e83735b5",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "9043fdca",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "f6d85d5c",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "d5eeea49",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "cb85225b",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "560dd925",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "2165772e",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "094a7b9d",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "eb234885",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "42e6ed11",
+          "text": "New task",
+          "checked": false
         }
       ],
       "width": 290,
-      "height": 290
+      "height": 290,
+      "due_date": "2026-02-28",
+      "completed": false
     },
     {
       "id": "682863c8",
@@ -75,19 +142,94 @@
           "id": "4d0e95ec",
           "text": "New task",
           "checked": false
+        },
+        {
+          "id": "9944ec2e",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "351b05e8",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "9fe0a415",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "c3a88b32",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "31077666",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "486b4dd2",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "365e1597",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "c4b32cfc",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "30766ead",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "e1610915",
+          "text": "New task",
+          "checked": false
+        },
+        {
+          "id": "dae23387",
+          "text": "New task",
+          "checked": false
         }
       ],
       "width": 280,
-      "height": 280
+      "height": 280,
+      "due_date": null,
+      "completed": false
     },
     {
       "id": "f46c3583",
       "title": "Armani",
       "content": "",
       "color": "#FFF9C4",
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "aeba7def",
+          "text": "ewqrewrrewrwqe",
+          "checked": false
+        },
+        {
+          "id": "e7ba30e3",
+          "text": "wqererewr",
+          "checked": false
+        },
+        {
+          "id": "d6aadf8d",
+          "text": "New task",
+          "checked": false
+        }
+      ],
       "width": 280,
-      "height": 280
+      "height": 280,
+      "due_date": null,
+      "completed": false
     },
     {
       "id": "fdc69e73",
@@ -102,7 +244,9 @@
         }
       ],
       "width": 280,
-      "height": 280
+      "height": 280,
+      "due_date": null,
+      "completed": false
     },
     {
       "id": "fc8ef31a",
@@ -111,7 +255,9 @@
       "color": "#BBDEFB",
       "tasks": [],
       "width": 280,
-      "height": 280
+      "height": 280,
+      "due_date": null,
+      "completed": false
     },
     {
       "id": "1ba3250c",
@@ -120,7 +266,9 @@
       "color": "#E1BEE7",
       "tasks": [],
       "width": 280,
-      "height": 280
+      "height": 280,
+      "due_date": null,
+      "completed": false
     }
   ]
 }

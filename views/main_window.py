@@ -6,6 +6,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
 from views.note_card import NoteCard
+from views.calendar_widget import CalendarWidget
 
 
 class MainWindow:
@@ -22,6 +23,7 @@ class MainWindow:
         self._setup_ui()
         self._populate_notes()
         viewmodel.on_notes_changed(self._on_notes_changed)
+        viewmodel.on_calendar_refresh(self._on_calendar_refresh)
         self._root.protocol("WM_DELETE_WINDOW", self._on_close)
 
         self._root.geometry("900x600")
@@ -47,9 +49,19 @@ class MainWindow:
         main_frame = tk.Frame(self._root, padx=16, pady=8, bg="#f5f5f5")
         main_frame.pack(fill=tk.BOTH, expand=True)
 
-        # Canvas + scrollbar for notes
+        # Left: calendar sidebar
+        calendar_panel = tk.Frame(main_frame, width=200, bg="#f5f5f5")
+        calendar_panel.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 16))
+        calendar_panel.pack_propagate(False)
+        self._calendar = CalendarWidget(
+            calendar_panel,
+            get_notes_with_due=lambda: self.viewmodel.notes,
+        )
+        self._calendar.pack(fill=tk.BOTH, expand=True)
+
+        # Right: Canvas + scrollbar for notes
         canvas_frame = tk.Frame(main_frame, bg="#f5f5f5")
-        canvas_frame.pack(fill=tk.BOTH, expand=True)
+        canvas_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         canvas = tk.Canvas(canvas_frame, bg="#f5f5f5", highlightthickness=0)
         scrollbar = ttk.Scrollbar(canvas_frame)
@@ -120,6 +132,11 @@ class MainWindow:
 
     def _on_notes_changed(self) -> None:
         self._populate_notes()
+        self._on_calendar_refresh()
+
+    def _on_calendar_refresh(self) -> None:
+        if hasattr(self, "_calendar") and self._calendar.winfo_exists():
+            self._calendar.refresh()
 
     def _sync_all_cards(self) -> None:
         """Sync UI values from all note cards to the model."""
@@ -130,6 +147,8 @@ class MainWindow:
         """Save all notes to default location."""
         self._sync_all_cards()
         self.viewmodel.save_all()
+        if hasattr(self, "_calendar") and self._calendar.winfo_exists():
+            self._calendar.refresh()
         messagebox.showinfo("Saved", "Notes saved successfully.")
 
     def _on_export(self) -> None:

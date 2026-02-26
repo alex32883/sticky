@@ -15,11 +15,16 @@ class MainViewModel:
         self._notes: list[Note] = []
         self._storage = StorageService()
         self._on_notes_changed_callbacks: list[callable] = []
+        self._on_calendar_refresh_callbacks: list[callable] = []
         self.load_notes()  # Load from local directory (exe dir when frozen) on start
 
     def on_notes_changed(self, callback: callable) -> None:
         """Register a callback to run when notes change."""
         self._on_notes_changed_callbacks.append(callback)
+
+    def on_calendar_refresh(self, callback: callable) -> None:
+        """Register a callback to refresh the calendar (e.g. when due dates change)."""
+        self._on_calendar_refresh_callbacks.append(callback)
 
     def _notify_notes_changed(self) -> None:
         for cb in self._on_notes_changed_callbacks:
@@ -56,9 +61,14 @@ class MainViewModel:
             note.tasks.remove(task)
             self._save_only()
 
+    def _notify_calendar_refresh(self) -> None:
+        for cb in self._on_calendar_refresh_callbacks:
+            cb()
+
     def update_note(self, note: Note) -> None:
-        """Mark note as updated and save (title, content, task checkboxes)."""
+        """Mark note as updated and save (title, content, task checkboxes, due date, completed)."""
         self._save_only()
+        self._notify_calendar_refresh()
 
     def cycle_note_color(self, note: Note) -> str:
         """Cycle note color and save."""
