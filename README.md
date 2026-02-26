@@ -74,3 +74,20 @@ To create a `.exe` you can double-click to run:
 Notes are stored at: `%APPDATA%\StickyNotes\notes.json`
 
 You can back up or restore notes by copying this file.
+
+## Git & GitHub
+
+Git is configured for this project with:
+
+- **Identity:** `user.name` and `user.email` set globally (GitHub noreply email).
+- **Credentials:** Credential helper set to `manager` (Windows). On first `git push`, you’ll be prompted to sign in to GitHub.
+- **Remote:** `origin` → `https://github.com/alex32883/sticky.git`
+- **Branch:** `main` tracks `origin/main`.
+
+**First-time push:**
+
+1. Create the repository on GitHub: [github.com/new](https://github.com/new) → name it `sticky`, leave it empty.
+2. Push: `git push -u origin main`
+3. When prompted, sign in with your GitHub account. Use a **Personal Access Token (PAT)** as the password, not your GitHub password: [Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens) → Generate new token (classic), scope `repo`.
+
+After that, the credential manager will remember your token for future pushes and pulls.
