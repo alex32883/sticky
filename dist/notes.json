@@ -2,8 +2,8 @@
   "notes": [
     {
       "id": "5c824555",
-      "title": "New Note",
-      "content": "SHM issue done testing\nImplement the instruction",
+      "title": "ROBOT",
+      "content": "SHM issue done testing\nImplement the instruction\nREG18 implement compare RAN 13 14",
       "color": "#FFF9C4",
       "tasks": [
         {
@@ -114,13 +114,14 @@
       ],
       "width": 290,
       "height": 290,
-      "due_date": "2026-02-28",
-      "completed": false
+      "due_date": "2026-02-21",
+      "completed": false,
+      "status": "in_progress"
     },
     {
       "id": "682863c8",
-      "title": "AI",
-      "content": "AI related",
+      "title": "GIC",
+      "content": "Check GIC  Bassem,,,,,",
       "color": "#F8BBD9",
       "tasks": [
         {
@@ -201,40 +202,14 @@
       ],
       "width": 280,
       "height": 280,
-      "due_date": null,
-      "completed": false
-    },
-    {
-      "id": "f46c3583",
-      "title": "Armani",
-      "content": "",
-      "color": "#FFF9C4",
-      "tasks": [
-        {
-          "id": "aeba7def",
-          "text": "ewqrewrrewrwqe",
-          "checked": false
-        },
-        {
-          "id": "e7ba30e3",
-          "text": "wqererewr",
-          "checked": false
-        },
-        {
-          "id": "d6aadf8d",
-          "text": "New task",
-          "checked": false
-        }
-      ],
-      "width": 280,
-      "height": 280,
-      "due_date": null,
-      "completed": false
+      "due_date": "2026-03-06",
+      "completed": false,
+      "status": "new"
     },
     {
       "id": "fdc69e73",
-      "title": "New Note",
-      "content": "New tests;\nfilter export\nBackup SHM REST",
+      "title": "To do work",
+      "content": "New tests;\nfilter export\nBackup SHM REST\nPipeline ENM and CBRS",
       "color": "#C8E6C9",
       "tasks": [
         {
@@ -246,29 +221,260 @@
       "width": 280,
       "height": 280,
       "due_date": null,
-      "completed": false
+      "completed": false,
+      "status": "in_progress"
     },
     {
       "id": "fc8ef31a",
       "title": "Bathroom",
-      "content": "Replace ventilator",
+      "content": "Replace ventilator, call  Ilya",
       "color": "#BBDEFB",
       "tasks": [],
       "width": 280,
       "height": 280,
       "due_date": null,
-      "completed": false
+      "completed": false,
+      "status": "in_progress"
     },
     {
-      "id": "1ba3250c",
-      "title": "Calls",
-      "content": "Call Zhenia\nCall Dima",
-      "color": "#E1BEE7",
+      "id": "8819a66c",
+      "title": "Zerno Зерно",
+      "content": "will be ready 16 march, need tio follow up",
+      "color": "#BBDEFB",
       "tasks": [],
       "width": 280,
       "height": 280,
       "due_date": null,
-      "completed": false
+      "completed": false,
+      "status": "in_progress"
+    },
+    {
+      "id": "b48b8ae8",
+      "title": "Папа",
+      "content": "",
+      "color": "#F8BBD9",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": "2026-03-13",
+      "completed": true,
+      "status": "completed"
+    },
+    {
+      "id": "a6c62809",
+      "title": "CBRS PIPELINE",
+      "content": "ALmost done",
+      "color": "#B2DFDB",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "in_progress"
+    },
+    {
+      "id": "b160ed72",
+      "title": "Taxes 2026  slip",
+      "content": "Send to Ron",
+      "color": "#F8BBD9",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": "2026-03-19",
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "ecb20f4f",
+      "title": "Expo pwd",
+      "content": "E4TtSMEtwrrNP_x",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "f1ea7e8b",
+      "title": "Duhi",
+      "content": "",
+      "color": "#B2DFDB",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": "2026-03-19",
+      "completed": false,
+      "status": "in_progress"
+    },
+    {
+      "id": "3c16fc9d",
+      "title": "Pala file both aut",
+      "content": "",
+      "color": "#D1C4E9",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "7396064e",
+      "title": "ROST BEEF",
+      "content": "Сюжет про остров миллиардеров - всем труба",
+      "color": "#FFCC80",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": "2026-03-13",
+      "completed": false,
+      "status": "in_progress"
+    },
+    {
+      "id": "48fb6d1b",
+      "title": "REPETITOR",
+      "content": "Call Masha",
+      "color": "#C8E6C9",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": "2026-03-25",
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "1bfea414",
+      "title": "",
+      "content": "",
+      "color": "#F8BBD9",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "8a74313c",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFCC80",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "151275fb",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "c6fbe3e0",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "1e745b7a",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "8b598a83",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "7cc6f791",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "539b1be7",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "eff4c07e",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "c26710af",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
+    },
+    {
+      "id": "e0489dca",
+      "title": "New Note",
+      "content": "",
+      "color": "#FFF9C4",
+      "tasks": [],
+      "width": 280,
+      "height": 280,
+      "due_date": null,
+      "completed": false,
+      "status": "new"
     }
   ]
 }
